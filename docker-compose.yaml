@@ -6,6 +6,7 @@ services:
         # Specific the number of Replicas
         #    replicas: 3
             mode: global
+            restart: always
         ports:
             - 8080:80
         volumes:
