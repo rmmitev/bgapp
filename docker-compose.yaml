@@ -4,8 +4,8 @@ services:
         image: rmmitev/bgapp-web
         deploy:
         # Specific the number of Replicas
-            replicas: 3
-        #    mode: global
+        #    replicas: 3
+            mode: global
         ports:
             - 8080:80
         volumes:
